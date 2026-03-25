@@ -1,0 +1,280 @@
+
+body{
+    justify-content: center;
+    background-color: #16181c;
+    color: #ddd;
+    font-family: 'Ubuntu', sans-serif;
+
+
+
+
+
+
+}
+
+.bookDiv{
+  background-color: #2c2a36; /* blue-500 */
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  /* justify-content: center; 
+  align-items: center;  */
+  /* width:600px; */
+    
+}
+
+.booksDiv{
+  display: flex;
+  flex-direction: column;       /* allow items to move to the next row */
+  justify-content: center; 
+  align-items: center;  
+  width: clamp(300px, 70%, 100%);
+  margin: 0 auto;
+
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;       /* allow items to move to the next row */
+   /* justify-content: left; */
+  /* align-items: center;   */
+  width: clamp(400px, 60%, 95%);
+   margin: 10px auto; 
+  /* background-color: #111;
+  padding: 10px; */
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  /* min-height: 90vh; */
+
+
+
+}
+
+.containerCenter{
+  display: flex;
+  flex-direction: column;       /* allow items to move to the next row */
+  align-items: center;  
+  width: clamp(400px, 60%, 95%);
+   margin: 10px auto; 
+  /* background-color: #111;
+  padding: 10px; */
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+
+
+}
+
+.column{
+  display: flex;
+  flex-direction: column;       /* allow items to move to the next row */
+
+}
+
+.row{
+  display: flex;
+  flex-direction: row;     
+  justify-content: center;
+
+
+}
+
+.bookData{
+    display: flex;
+    flex-direction: column;       /* allow items to move to the next row */
+
+
+}
+
+.bookImg{
+    /*margin: 0 auto;*/
+    padding: 10px;
+}
+
+a {
+      color: inherit;        /* keeps text color from parent */
+  text-decoration: none; /* removes underline */
+}
+
+
+.subjectSpan{
+    background-color: #aaa;
+    color : #000;
+     margin: 5px; 
+     padding: 3px;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+    border-radius: 10px 10px 10px 10px;
+
+  
+
+}
+
+.subjects{
+     display: flex;
+  flex-wrap: wrap; /* allows items to move to next line */
+}
+
+
+.line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.textField{
+   background-color: #2c2a36;
+   color: #fff;
+    margin: 10px; 
+    padding: 10px;
+    border:  1px #fff solid;
+    border-radius: 10px;
+  /* white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal; */
+  min-width: 70%;
+
+  font-family: "Ubuntu";
+
+}
+
+.passwordField{
+   background-color: #2c2a36;
+   color: #fff;
+    margin: 10px; 
+    padding: 10px;
+    border:  1px #fff solid;
+    border-radius: 10px;
+  /* white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal; */
+  min-width: 70%;
+
+  font-family: "Ubuntu";
+
+}
+
+.searchFieldTitle{
+   color: #fff;
+   padding: 0px 0px 0px 10px;
+  /* white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal; */
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.searchButton{
+  background-color: #2c2a36;
+  color: #fff;
+  border:  2px #fff solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Ubuntu";
+
+}
+
+
+.textButton{
+  background-color: #2c2a36;
+  color: #fff;
+  border:  2px #fff solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Ubuntu";
+  padding: 10px;
+
+}
+
+
+.searchButtonImg{
+width: 30px;
+height: 30px;
+}
+
+.searchButton p {
+  padding: 7px;
+}
+
+
+.searchButtonContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.rightEnd{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+h1 {
+  padding: 20px;
+}
+
+
+p {
+  text-align: left;
+}
+
+
+.appName{
+  font-size: 70px;
+  padding: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.appMotto{
+  font-size: 20px;
+  padding-left: 50px;
+
+}
+
+.quote{
+  font-size: 30px;
+  padding: 10px;
+}
+
+.quoteAuthor{
+  font-size: 30px;
+  font-weight:800;
+  font-style: italic;
+  padding: 10px;
+}
+
+.appInfo{
+  margin-top: 50px;
+}
+
+
+.container a{
+  text-decoration: underline;
+}
+
+
+.bookDiv a{
+  text-decoration: none;
+}
+
+.errorField{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #c2553c;
+}
+
+.successField{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #59b53e;
+}
